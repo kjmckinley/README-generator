@@ -80,7 +80,7 @@ function writeToFile(fileName, data) {
 inquirer.prompt(questions)
 .then((answers) => {
     const markdown = generateMarkdown(answers);
-    writeToFile('generated_README.md', markdown);
+    writeToFile('README.md', markdown);
 })
 .catch((error) => {
     if (error.isTtyError) {
