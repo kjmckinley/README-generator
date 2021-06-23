@@ -6,53 +6,69 @@ const fs = require('fs');
 const questions = [
     {
         type: 'input',
-        name: 'projectTitle',
-        message: "What is the title of your project?",
-        default: 'My Project Title'
-
+        name: 'title',
+        message: 'What is the name of your project?'
     },
+
     {
         type: 'input',
-        name: 'projectDescription',
-        message: "Write a description of your project:",
-        default: 'Project Description Goes Here!'
+        name: 'description',
+        message: 'Write a description of your project:'
     },
-    // {
-    //     type: 'input',
-    //     name: 'tableOfContents',
-    //     Message:
-    // },
+
     {
-        type:'input',
+        type: 'input',
         name: 'installation',
-        message: "What installition steps are involved in using this application?"
+        message: 'What packages and programs need to be installed for your project?'
     },
+
     {
         type: 'input',
         name: 'usage',
-        message: "Give instructions and examples off the functionality of your project:"
+        message: 'What will your application be used for?'
     },
+
     {
-        type: 'list',
+        type: 'input',
+        name: 'contribution',
+        message: 'Are there contribution instructions?'
+    },
+
+    {
+        type: 'input',
+        name: 'test',
+        message: 'Please provide project test instructions'
+    },
+
+    {
+        type: 'checkbox',
         name: 'license',
-        message: "Select a license for your project",
-        choices: []
+        message: 'What license covers your project?',
+        choices: [
+            '[GNU General Public License](GNU-GP-LIC.txt)',
+            '[MIT License](MITLIC.txt)',
+            '[Apache License](ApacheLic.txt)',
+            '[Not Licensed]'
+        ]
     },
+
     {
         type: 'input',
-        name: 'contributing',
-        message: "Give instructions on how others can contribute to this project:"
+        name: 'github',
+        message: 'Enter you gitHub username:'
     },
+
     {
         type: 'input',
-        name: 'tests',
-        message: "Give information and instructions on any tests in your application and how to run them:"
-    },
-    
+        name: 'email',
+        message: 'Enter your email address'
+    }
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    
+}
 
 // TODO: Create a function to initialize app
 function init() {}
