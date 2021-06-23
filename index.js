@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('./utils/generateMarkdown');
+const generateMarkdown = require('./assests/utils/generateMarkdown');
 
 // An array of questions for user input
 const questions = [
@@ -76,17 +76,17 @@ function writeToFile(fileName, data) {
     });
 }
 
-// A function to initialize app
-// inquirer.prompt(questions)
-// .then((answers) => {
-//     const markdown = generateMarkdown(answers);
-//     writeToFile('generated_README.md', markdown);
-// })
-// .catch((error) => {
-//     if (error.isTtyError) {
-//     }else{
-//     }
-// });
+A function to initialize app
+inquirer.prompt(questions)
+.then((answers) => {
+    const markdown = generateMarkdown(answers);
+    writeToFile('generated_README.md', markdown);
+})
+.catch((error) => {
+    if (error.isTtyError) {
+    }else{
+    }
+});
 
 // function init() {}
 

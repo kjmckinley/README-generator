@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/kjmckinley/README-generator#readme",
   "dependencies": {
-    "inquirer": "^8.0.0"
+    "inquirer": "^8.1.1"
   }
 }
