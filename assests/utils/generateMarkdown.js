@@ -24,9 +24,12 @@ function renderLicenseLink(license) {
 
   } else if (license === 'Apache 2.0') {
       return 'https://http://www.apache.org/licenses/LICENSE-2.0';
-      
+
   } else if (license === 'MIT') {
       return 'https://opensource.org/licenses/MIT' 
+
+  } else {
+      return "";
   }
 
 // TODO: Create a function that returns the license section of README
