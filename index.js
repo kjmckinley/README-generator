@@ -76,7 +76,7 @@ function writeToFile(fileName, data) {
     });
 }
 
-A function to initialize app
+// A function to initialize app
 inquirer.prompt(questions)
 .then((answers) => {
     const markdown = generateMarkdown(answers);
