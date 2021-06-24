@@ -64,7 +64,7 @@ const questions = [
         name: 'email',
         message: 'Enter your email address'
     }
-];
+]
 
 // A function to write README file
 function writeToFile(fileName, data) {
@@ -80,7 +80,7 @@ function writeToFile(fileName, data) {
 inquirer.prompt(questions)
 .then((answers) => {
     const markdown = generateMarkdown(answers);
-    writeToFile('README.md', markdown);
+    writeToFile('generated_README.md', markdown);
 })
 .catch((error) => {
     if (error.isTtyError) {
