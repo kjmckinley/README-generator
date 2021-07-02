@@ -11,6 +11,8 @@ The application will be invoked by using the following command:
 ```
 node index.js
 ```
+## Demo
+The following animations show the web application's appearance and functionality:
 
 ![README inquirer demo](./assets/README_generator_test.gif)
 
