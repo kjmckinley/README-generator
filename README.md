@@ -12,6 +12,8 @@ The application will be invoked by using the following command:
 node index.js
 ```
 
+![README inquirer demo](./assets/README_generator_test.gif)
+
 ## Links
 [Github Repo](https://github.com/kjmckinley/README-generator.git)
 - Github SSH key: git@github.com:kjmckinley/README-generator.git
