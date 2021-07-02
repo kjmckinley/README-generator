@@ -82,11 +82,11 @@ inquirer.prompt(questions)
     const markdown = generateMarkdown(answers);
     writeToFile('generated_README.md', markdown);
 })
-.catch((error) => {
-    if (error.isTtyError) {
-    }else{
-    }
-});
+// .catch((error) => {
+//     if (error.isTtyError) {
+//     }else{
+//     }
+// });
 
 // function init() {}
 
