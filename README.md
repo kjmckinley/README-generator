@@ -19,3 +19,7 @@ The following animations show the web application's appearance and functionality
 ## Links
 [Github Repo](https://github.com/kjmckinley/README-generator.git)
 - Github SSH key: git@github.com:kjmckinley/README-generator.git
+
+## Contributors
+- Kyle McKinley - GitHub: kjmckinley
+- Ritchie Ortiz - GitHub: xRortiz

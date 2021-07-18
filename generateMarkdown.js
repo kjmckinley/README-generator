@@ -29,7 +29,7 @@ function renderLicenseLink(license) {
       return 'https://opensource.org/licenses/MIT' 
 
   } else {
-      return "";
+      return "https://opensource.org/licenses/MIT";
   }
 
 // A function that returns the license section of README
